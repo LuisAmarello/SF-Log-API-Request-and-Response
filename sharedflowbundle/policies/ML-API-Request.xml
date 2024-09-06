@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<MessageLogging continueOnError="false" enabled="true" name="ML-API-Request">
+    <DisplayName>ML-API-Request</DisplayName>
+    <CloudLogging>
+        <LogName>projects/{organization.name}/logs/MessageLogging-Policy-Apigee-API-Request</LogName>
+        <Message contentType="application/json">
+            {logs-Payload}
+        </Message>
+        <ResourceType>gce_instance</ResourceType>
+    </CloudLogging>
+    <logLevel>INFO</logLevel>
+</MessageLogging>

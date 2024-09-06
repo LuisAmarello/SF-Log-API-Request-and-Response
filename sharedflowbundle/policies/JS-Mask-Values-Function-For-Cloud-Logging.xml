@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Javascript continueOnError="false" enabled="false" timeLimit="200" name="JS-Mask-Values-Function-For-Cloud-Logging">
+    <DisplayName>JS-Mask-Values-Function-For-Cloud-Logging</DisplayName>
+    <Properties/>
+    <ResourceURL>jsc://JS-Mask-Values-Function-For-Cloud-Logging.js</ResourceURL>
+</Javascript>

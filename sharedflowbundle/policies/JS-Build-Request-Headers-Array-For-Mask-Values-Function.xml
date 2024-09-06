@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Javascript continueOnError="false" enabled="true" timeLimit="200" name="JS-Build-Request-Headers-Array-For-Mask-Values-Function">
+    <DisplayName>JS-Build-Request-Headers-Array-For-Mask-Values-Function</DisplayName>
+    <Properties/>
+    <ResourceURL>jsc://JS-Build-Request-Headers-Array-For-Mask-Values-Function.js</ResourceURL>
+</Javascript>

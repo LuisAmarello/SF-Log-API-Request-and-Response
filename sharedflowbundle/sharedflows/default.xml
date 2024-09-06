@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SharedFlow name="default">
+    <Step>
+        <Name>JS-Clear-Request-Content</Name>
+    </Step>
+    <Step>
+        <Name>JS-Build-Request-Headers-Array-For-Mask-Values-Function</Name>
+    </Step>
+    <Step>
+        <Name>JS-Mask-Values-Function-For-Cloud-Logging</Name>
+    </Step>
+    <Step>
+        <Name>JS-Build-Error-Response-Object</Name>
+    </Step>
+    <Step>
+        <Name>JS-Build-Response-Headers-Array</Name>
+    </Step>
+    <Step>
+        <Name>JS-Build-Cloud-Logging-Payload</Name>
+    </Step>
+    <Step>
+        <Name>AM-Message-Logging-Request-Payload</Name>
+    </Step>
+    <Step>
+        <Name>ML-API-Request</Name>
+    </Step>
+    <Step>
+        <Condition>(flow.error.js.isError = true)</Condition>
+        <Name>JS-Catch-Error-Variable</Name>
+    </Step>
+</SharedFlow>

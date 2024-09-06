@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Javascript continueOnError="false" enabled="true" timeLimit="200" name="JS-Build-Cloud-Logging-Payload">
+    <DisplayName>JS-Build-Cloud-Logging-Payload</DisplayName>
+    <Properties/>
+    <ResourceURL>jsc://JS-Build-Cloud-Logging-Payload.js</ResourceURL>
+</Javascript>

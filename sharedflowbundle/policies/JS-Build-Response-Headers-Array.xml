@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Javascript continueOnError="false" enabled="true" timeLimit="200" name="JS-Build-Response-Headers-Array">
+    <DisplayName>JS-Build-Response-Headers-Array</DisplayName>
+    <Properties/>
+    <ResourceURL>jsc://JS-Build-Response-Headers-Array.js</ResourceURL>
+</Javascript>

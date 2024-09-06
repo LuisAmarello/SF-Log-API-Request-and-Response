@@ -1,0 +1,30 @@
+<SharedFlowBundle revision="16" name="SF-Log-API-Request-and-Response">
+    <DisplayName></DisplayName>
+    <Description></Description>
+    <CreatedAt>1724860386899</CreatedAt>
+    <LastModifiedAt>1724860386899</LastModifiedAt>
+    <Policies>
+        <Policy>JS-Clear-Request-Content</Policy>
+        <Policy>JS-Mask-Values-Function-For-Cloud-Logging</Policy>
+        <Policy>JS-Build-Cloud-Logging-Payload</Policy>
+        <Policy>JS-Build-Request-Headers-Array-For-Mask-Values-Function</Policy>
+        <Policy>AM-Message-Logging-Request-Payload</Policy>
+        <Policy>ML-API-Request</Policy>
+        <Policy>JS-Catch-Error-Variable</Policy>
+        <Policy>JS-Build-Error-Response-Object</Policy>
+        <Policy>JS-Build-Response-Headers-Array</Policy>
+    </Policies>
+    <Resources>
+        <Resource>jsc://JS-Clear-Request-Content.js</Resource>
+        <Resource>jsc://JS-Mask-Values-Function-For-Cloud-Logging.js</Resource>
+        <Resource>jsc://JS-Build-Cloud-Logging-Payload.js</Resource>
+        <Resource>jsc://JS-Build-Request-Headers-Array-For-Mask-Values-Function.js</Resource>
+        <Resource>jsc://JS-Catch-Error-Variable.js</Resource>
+        <Resource>jsc://JS-Build-Error-Response-Object.js</Resource>
+        <Resource>jsc://JS-Build-Response-Headers-Array.js</Resource>
+    </Resources>
+    <SharedFlows>
+        <SharedFlow>default</SharedFlow>
+    </SharedFlows>
+    <subType>SharedFlow</subType>
+</SharedFlowBundle>
